@@ -39,7 +39,7 @@ function Navbar() {
             {openMenu === "ipr" && (
               <div className="absolute top-8 left-0 bg-white shadow-lg rounded-lg p-3 space-y-2">
                 <Link to="/ipr-cell" className="block hover:text-blue-700">
-                  Overview
+                  IPR Cell
                 </Link>
 
                 <Link to="/ipr-members" className="block hover:text-blue-700">
